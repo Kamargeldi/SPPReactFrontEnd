@@ -1,0 +1,79 @@
+
+.headerPanel {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h2 
+{
+  color:white;
+  float: right;
+  padding-right: 100px;
+}
+
+.logoutButton {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+h3{
+  margin: 10px;
+  display:inline;
+  color: white;
+}
+
+.fileItemContainer {
+  padding: 10px;
+  border-radius: 5px;
+  border-width: 2px;
+  border: solid maroon;
+  box-shadow: 5px 5px 5px 1px gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  min-width:fit-content;
+  background-color: bisque;
+}
+
+.uploadButton
+{
+  background-color: brown;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 5px gray;
+  width: 400px;
+  margin: 20px 5px;
+  margin-right: ;
+  display: flex;
+}
+
+.uploadButton:hover {
+  background-color: lightcoral;
+}
+
+.uploadButton span {
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+.uploadButtonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  min-width: 1100px;
+}
+

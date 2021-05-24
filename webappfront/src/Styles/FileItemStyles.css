@@ -1,0 +1,89 @@
+.fileItem {
+  background-color:mediumseagreen;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 1px grey;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  display: flex;
+  justify-content: space-between;
+  min-width: 1000px;
+  border: solid transparent;
+  border-width: 2px;
+}
+
+.fileItem:hover {
+  border: solid black;
+  border-width: 2px;
+}
+
+
+.fileInfoContainer {
+  max-width: 600px;
+}
+
+h5 {
+  color: azure;
+  text-shadow: 1px 1px 2px black, 0 0 1em gray;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  word-wrap: break-word;
+}
+
+
+.downloadButton {
+  background-color:limegreen;
+  margin: 5px;
+  width: 200px;
+  height: 45px;
+  border-radius: 5px;
+  color: white;
+  font-size: 13pt;
+  font-weight: 700;
+  align-items: center;
+  display: flex;
+}
+
+.downloadButton:hover {
+  background-color: green;
+}
+
+
+.downloadButton span {
+  vertical-align: middle;
+  width: 100%;
+  text-align: center;
+}
+
+.deleteButton {
+  background-color: lightcoral;
+  margin: 5px;
+  width: 200px;
+  height: 45px;
+  border-radius: 5px;
+  color: white;
+  font-size: 13pt;
+  font-weight: 700;
+  align-items: center;
+  display: flex;
+}
+
+.deleteButton:hover {
+  background-color: tomato;
+}
+
+.deleteButton span {
+  vertical-align: middle;
+  width: 100%;
+  text-align: center;
+}
+
+.buttonsContainer {
+  display: flex;
+  align-items: center;
+}
